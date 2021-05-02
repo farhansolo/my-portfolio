@@ -1,94 +1,46 @@
-h1 {
-  color: rgba(20, 153, 64, 0.89);
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(0, 47, 255);
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-  color: rgba(20, 89, 153, 0.89);
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(162, 0, 255);
-}
-
-nav {
-  border-style: solid;
-  border-width: 2px;
-  border-color: darkolivegreen;
-}
-
-section {
-  border-style: dashed;
-  border-width: 2px;
-  border-color: gray;
-}
-
-section {
-  border-style: dotted;
-  border-width: 1px;
-  border-color: black;
-}
-
-aside {
-  border-style: solid;
-  border-width: 1px;
-  border-color: pink;
-}
-
-p {
-  color: rgb(9, 58, 29);
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
 }
 
 body {
-  color: rgb(33, 34, 30);
-  background-color: rgb(207, 207, 207);
+  font-family: 'Roboto', sans-serif;
+  max-width: 700px;
+  width: 70%;
+  margin: 40px auto 0 auto;
+  padding: 20px;
 }
 
-.purple-text {
-  color: rgba(0, 0, 255, .5);
+header {
+  margin-bottom: 30px;
 }
 
-.important {
-  font-weight: bold;
+h1 {
+  color: black;
+  background-color: #fff200;
+  display: inline-block;
+  letter-spacing: -1px;
+  margin: 0;
+  line-height: 20px;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 40px;
+  font-size: 300%;
+  font-family: 'Rock Salt', cursive;
 }
 
-#lead-paragraph {
-  color: purple;
-  font-weight: bold;
+nav a {
+  padding: 5px;
 }
 
-.important:hover {
-  background-color: #ec3e09;
-}
-
-a[href="#"] {
-  background-color: rgb(255, 255, 255);
-  padding: 1rem;
-}
-
-a[href="index.html"] {
-  background-color: coral;
-  padding: 1rem;
-}
-
-a[href="about-me.html"] {
-  background-color: rgb(85, 52, 230);
-  padding: 1rem;
-}
-
-a[href="sunsets-and-beaches.html"] {
-  background-color: rgb(250, 152, 4);
-  padding: 1rem;
-}
-
-p.important {
-  width: 75%;
-}
-
-img {
-  border-style: double;
-  border-color: pink;
-  border-width: 3px;
-  width: 20%;
+p {
+  color: #434242;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.8em;
 }
