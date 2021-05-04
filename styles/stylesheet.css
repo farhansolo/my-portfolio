@@ -17,32 +17,58 @@ body {
   /* font-family: 'Roboto', sans-serif; */
 }
 
-h1, h2, h3, h4 {
-  font-weight: 700;
+h2, h3, h4 {
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; 
+  color: #ff7b7b;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.7em;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 2em;
   margin-top: 0;
 }
 
-.name {
-  background: -webkit-linear-gradient(#66cbfd, #197eb1);
-  background-clip: inherit;
+.page-heading{
+  background: -webkit-linear-gradient(#51bdf3, #197eb1);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration-line: underline;
+  text-decoration-color: #ff7b7b;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+
+.fa-gradient {
+  background: -webkit-linear-gradient(#51bdf3, #197eb1);
+  background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.byline {
+  font-weight: 900;
+  font-size: .8em;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+i {
+  margin-right: .5em;
 }
 
 p {
-  color: #434242;
+  color: black;
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
   font-size: 1.2em;
   line-height: 1.8em;
   margin: 0 0 1.5rem;
-  line-height: 1.5;
-  letter-spacing: -0.5px;
 }
 
 .top-line {
@@ -64,15 +90,14 @@ header a {
 
 .navbar {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: center;
   margin-bottom: 20px;
 }
 
 .navbar nav ul {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
   justify-content: flex-start;
 }
 
@@ -83,7 +108,7 @@ header a {
 .navbar nav a {
   font-weight: 600;
   font-size: 1.2em;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03em;
   margin: 0 25px 0 0;
 }
 
@@ -117,4 +142,3 @@ figcaption {
   font-size: .8em;
   padding: 3px;
 }
-
