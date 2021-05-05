@@ -83,11 +83,11 @@ p {
 
 .selfie {
   border-radius: 50%;
-  transition: border-radius 3s ease-in;
+  transition: border-radius 1.5s .2s ease;
 }
 
 .selfie:hover {
-  border-radius: 10% / 50%;
+  border-radius: 25% 10%;
 }
 
 header a {
