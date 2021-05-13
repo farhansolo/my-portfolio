@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <script src="https://kit.fontawesome.com/70ecf4608b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <div class="top-line"></div>
+    <div class="container">
+      <header>
+        <div class="navbar">
+          <a href="index.html">
+            <img src="images/headshot3.jpg" alt="selfie of myself" class="selfie" height="80" width="80">
+          </a>
+          <nav>
+            <ul>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+              <li>
+                <a href="posts.html">posts</a>
+              </li>
+              <li>
+                <a href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section>
+        <h1 class="page-heading"><i class="far fa-gradient fa-file-signature"></i>Contact Me</h1>
+        <form method="GET">
+          <label>Your name:
+            <input type="text" name="name">
+          </label>
+    
+          <label>Your email:
+            <input type="email" name="email">
+          </label>
+
+          <label for="location">Where are you from?</label>
+            <input id="location" type="text" name="location">
+    
+          <label>What's your favorite number?
+            <input type="number" name="favNumber">
+          </label>
+    
+          <label>Purpose of contacting me?
+            <textarea name="contactReason" rows="4" cols="50">Because I want to get to know you :)</textarea>
+          </label>
+    
+          <fieldset class="checkbox">
+            <legend>What would you like to learn about me?</legend>
+            <label>
+              <input type="checkbox" name="learn" value="hobbies">Hobbies
+              <span class="checkmark"></span>
+            </label>
+            <label>
+              <input type="checkbox" name="learn" value="travel">Travel Plans
+              <span class="checkmark"></span>
+            </label>
+            <label>
+              <input type="checkbox" name="learn" value="work">Work Experience
+              <span class="checkmark"></span>
+            </label>
+            <label>
+              <input type="checkbox" name="learn" value="passion">My passions
+              <span class="checkmark"></span>
+            </label>
+          </fieldset>
+    
+          <fieldset>
+            <legend>Best way to get in touch with you?</legend>
+            <label>
+              <input type="radio" name="respond" value="phone">Phone
+            </label>
+            <label>
+              <input type="radio" name="respond" value="email">Email
+            </label>
+            <label>
+              <input type="radio" name="respond" value="mail">Mail
+            </label>
+            <label>
+              <input type="radio" name="respond" value="fax">Fax
+            </label>
+          </fieldset>
+    
+          <label>Best time of day to contact you?
+            <select name="hours">
+              <option value="">Please select</option>
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+            </select>
+          </label>
+    
+          <label>Tell me a secret!
+            <input type="password" name="accountPW">
+          </label>
+            <input type="submit" value="Submit!">
+        </form>
+      </section>
+      <footer>
+        <p>This page built by me, in 2021.</p>
+      </footer>
+    </div>
+  </body>
+</html>
